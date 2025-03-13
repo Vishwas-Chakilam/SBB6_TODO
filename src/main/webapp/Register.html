@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Registration Form</h2>
+        <form method="post" action="./RegisterServlet">
+            <div class="row mb-3">
+                <label for="fname" class="col-sm-2 col-form-label">FName</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="fname" name="fname" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="lname" class="col-sm-2 col-form-label">LName</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="lname" name="lname" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="pass" class="col-sm-2 col-form-label">Pass</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="pass" name="pass" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="mobile" class="col-sm-2 col-form-label">Mobile</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="mobile" name="mobile" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="address" class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary" name="submit">Register</button>
+                    <button type="reset" class="btn btn-secondary" name="reset">Clear</button>
+                </div>
+            </div>
+        </form>
+    </div>
+ 	<div class="text-center mt-3">
+        <p>Existing User? <a href="Login.jsp">Login</a></p>
+    </div>
+    <!-- Bootstrap JS & Popper.js Link -->
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

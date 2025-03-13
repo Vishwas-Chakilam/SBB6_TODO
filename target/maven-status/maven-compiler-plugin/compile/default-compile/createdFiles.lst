@@ -1,0 +1,10 @@
+beans\Register.class
+beans\Task.class
+dao\ToDoDAO.class
+dao\ToDoDAOImpl.class
+servlets\LoginServlet.class
+servlets\LogoutServlet.class
+servlets\RegisterServlet.class
+servlets\MarkTaskCompletedServlet.class
+factory\DBConn.class
+servlets\AddTaskServlet.class
